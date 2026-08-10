@@ -1,0 +1,7 @@
+What I did today
+1 hour - learn S3,Session Manager,Route 53
+an hour - learn cloudTrail, Cloud Watch
+
+two hour - rewatch today's lecture
+
+half hour - coding practice
