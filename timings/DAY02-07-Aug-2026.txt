@@ -1,0 +1,3 @@
+three hour - learn EC2, IAM, VPC, S3
+
+half an hour - learn AMI
