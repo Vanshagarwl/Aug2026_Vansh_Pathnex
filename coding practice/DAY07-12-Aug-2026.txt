@@ -1,0 +1,28 @@
+🔹 Kubernetes — Pod with Volume Mount
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pathnex-pod
+spec:
+  containers:
+    - name: web
+      image: nginx
+      volumeMounts:
+        - mountPath: /usr/share/nginx/html
+          name: html-volume
+  volumes:
+    - name: html-volume
+      hostPath:
+        path: /data
+        type: Directory
+🔹 Shell Script — Check for Running Services
+#!/bin/bash
+services=("nginx" "docker" "httpd")
+for service in "${services[@]}"
+do
+  if systemctl is-active --quiet $service; then
+    echo "$service is running"
+  else
+    echo "$service is not running"
+  fi
+done
