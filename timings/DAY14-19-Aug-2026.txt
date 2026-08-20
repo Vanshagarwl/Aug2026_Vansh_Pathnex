@@ -1,0 +1,3 @@
+2 hours - I revise the whole lecture of ArgoCD 
+
+1 hour - Hands-on the Helm tool of Kubernetes
