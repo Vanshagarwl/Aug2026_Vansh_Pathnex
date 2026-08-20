@@ -1,0 +1,3 @@
+2 hours - learn the concept of terraform 
+
+2 hours - learn the ArgoCD
