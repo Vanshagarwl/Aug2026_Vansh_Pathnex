@@ -1,0 +1,3 @@
+2 hours = learn all the topics of Ansible 
+
+1 hour revise the terraform
