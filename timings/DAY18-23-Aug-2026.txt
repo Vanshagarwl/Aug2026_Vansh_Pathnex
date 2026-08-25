@@ -1,0 +1,7 @@
+1 hour learn the CI/CD concept 
+
+1 hour learn the Github Action 
+
+1 Hour learn the Jenkins 
+
+1 hour revise the Ansible 
