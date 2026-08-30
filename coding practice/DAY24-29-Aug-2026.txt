@@ -1,0 +1,25 @@
+variable "aws_region" {
+  type        = string
+  description = "Region where EC2 will be created"
+  default     = "us-east-1"
+}
+
+variable "instance_type" {
+  type        = string
+  description = "EC2 instance type"
+  default     = "t3.micro"
+}
+
+variable "name_prefix" {
+  type        = string
+  description = "Prefix for names/tags"
+  default     = "Pathnex-Feb-2026"
+}
+
+variable "tags" {
+  type        = map(string)
+  description = "Common tags"
+  default = {
+    Project = "terraform-class"
+  }
+}
